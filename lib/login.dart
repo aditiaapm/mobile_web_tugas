@@ -42,7 +42,6 @@ class LoginScreen extends StatelessWidget {
                     style: TextStyle(fontSize: 24, fontWeight: FontWeight.bold),
                   ),
                   const SizedBox(height: 20),
-                  // TextField untuk Email
                   TextField(
                     controller: emailController,
                     decoration: InputDecoration(
@@ -53,7 +52,6 @@ class LoginScreen extends StatelessWidget {
                     ),
                   ),
                   const SizedBox(height: 20),
-                  // TextField untuk Password
                   TextField(
                     controller: passwordController,
                     decoration: InputDecoration(

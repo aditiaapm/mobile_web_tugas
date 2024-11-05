@@ -26,7 +26,6 @@ class _UpdateAkunScreenState extends State<UpdateAkunScreen> {
   }
 
   Future<void> _updateAkun() async {
-    // Validasi input
     if (nameController.text.isEmpty || emailController.text.isEmpty) {
       ScaffoldMessenger.of(context).showSnackBar(
         const SnackBar(content: Text('Nama dan Email tidak boleh kosong!')),
